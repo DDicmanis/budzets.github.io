@@ -432,7 +432,7 @@ function pieChart() {
     .append("g")
     .attr("class", "legend")
     .append("image")
-    .attr("xlink:href", "/img/euro-coin-2141.svg")
+    .attr("xlink:href", "euro-coin-2141.svg")
     .attr("width", 140)
     .attr("x", 0)
     .attr("height", 140);
