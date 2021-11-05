@@ -59,7 +59,7 @@ $(document).ready(function () {
     var cw = $('#canvas').width();
     $("#pie svg").width(cw);
     $("#mainG").attr({ "transform": 'translate(' + cw / 2 + ',' + canvasHeight / 2 + ')' });
-    if ($("#pie svg").width() <= 450) {
+    if ($("#pie svg").width() <= 470) {
       $('.slices').css('transform', 'scale(' + 0.6 + ')');
       $(".labels").css('transform', 'scale(' + 0.6 + ')');
       $(".lines").css('transform', 'scale(' + 0.6 + ')');
