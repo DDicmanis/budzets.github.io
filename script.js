@@ -83,7 +83,7 @@ var colors = ["#00545A", "#00757B", "#14263E", "#028C92", "#21ABB1", "#4F6179", 
 var legendData = [{
   label: "Sample",
   value: 300,
-  content: "/img/Group.svg"
+  content: "Group.svg"
 }, {
   label: "Total People",
   value: 7200000
